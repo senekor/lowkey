@@ -16,6 +16,9 @@ exclude = [".github"]
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
+anyhow = "1.0.82"
+serde = { version = "1.0.197", features = ["derive"] }
+toml = "0.8.12"
 
 # The profile that 'cargo dist' will build with
 [profile.dist]
